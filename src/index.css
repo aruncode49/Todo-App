@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-inline: 0.5rem;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.input-box {
+  display: flex;
+  margin: 1rem auto 0 auto;
+  flex-direction: column;
+  max-width: 30rem;
+  gap: 1rem;
+}
+
+.input-box input,
+button {
+  height: 2rem;
+}
+
+.input-box input,
+textarea {
+  font-size: 1.1rem;
+  width: 100%;
+  outline: none;
+  margin-top: 8px;
+  padding: 1rem 0.5rem;
+}
+
+.input-box textarea {
+  padding-top: 5px;
+}
+
+.input-box button {
+  cursor: pointer;
+}
+
+* {
+  /* border: 1px solid red; */
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  background-color: rgb(229, 228, 228);
+  max-width: 30rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+.todo-data {
+  max-width: 25rem;
+}
+
+.todo button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: crimson;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.todo button:hover {
+  background-color: red;
+}
